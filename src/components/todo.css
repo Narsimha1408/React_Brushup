@@ -1,0 +1,22 @@
+.todo-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.todo-wrapper{
+    background-color: pink;
+    padding: 20px;
+    border: solid;
+}
+.todo-item{
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.todo-list{
+    text-align: left;
+}
+.todo-item span.completedTask{
+    text-decoration: line-through;
+}
